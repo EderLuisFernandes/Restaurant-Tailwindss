@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#menu {
+  background: url(../SRC/img/Group\ 149.png);
+}
+
+#header {
+  display: none;
+}
+
+@media screen and (max-width: 414px) {
+  #header {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px;
+  }
+}

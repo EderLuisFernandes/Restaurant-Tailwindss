@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Restaurante</title>
+</head>
+
+<body>
+    <header class="w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-center">
+        <div id="header">
+            <i class="fa-solid fa-user " style="font-size: 24px;"></i>
+            <i class="fa-solid fa-bars" style="font-size: 24px;"></i>
+        </div>
+        <div class="w-full h-full flex flex-col justify-center items-center cursor-pointer">
+            <img src="./SRC/img/BURGUER11.png" alt=""
+                class="w-42 h-32 rounded-lg shadow-lg hover:scale-110 duration-200">
+            <h1 class="text-3xl mt-4 mb-2 font-bold text-white"> Restaurante</h1>
+            <span class="text-white font-medium">Camaçari, Centro-Ba</span>
+            <div class="bg-green-600 px-4 py-1 rounded-lg mt-5 text-white font-bold" id="date-span">
+                <span>Seg á Dom - 18:00 as 22:00</span>
+            </div>
+        </div>
+    </header>
+    <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6"> Cardápio: </h2>
+
+    <div id="menu">
+        <main class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+
+            <div class="flex gap-2">
+                <img src="./SRC/img/hamb-4.png" alt="hamburguer smash"
+                    class="w-28 h-28 rounded-md hover:scale-100 hover:-rotate-2 duration-300">
+
+                <div>
+                    <p class="font-bold"> hamburguer casa</p>
+                    <p class="text-sm"> Pão levinho de fermentação natural da trigou, burger 160g, queijo prato e
+                        mainese da
+                        casa.</p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 30.00</p>
+                        <button class="bg-purple-500 px-5 rounded add-to-card-btn" data-name="hamburguer casa"
+                            data-price="30.00">
+                            <i class="fa-solid fa-cart-plus text-black"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./SRC/img/hamb-2.png" alt="hamburguer smash"
+                    class="w-28 h-28 rounded-md hover:scale-100 hover:-rotate-2 duration-300">
+
+                <div>
+                    <p class="font-bold"> hamburguer Duplo</p>
+                    <p class="text-sm"> Pão levinho de fermentação natural da trigou, burger 160g, queijo prato e
+                        mainese da
+                        casa.</p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 32.90</p>
+                        <button class="bg-purple-500 px-5 rounded add-to-card-btn" data-name="hamburguer Duplo"
+                            data-price="32.90">
+                            <i class="fa-solid fa-cart-plus text-black"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="flex gap-2">
+                <img src="./SRC/img/hamb-1.png" alt="hamburguer smash"
+                    class="w-28 h-28 rounded-md hover:scale-100 hover:-rotate-2 duration-300">
+
+                <div>
+                    <p class="font-bold"> hamburguer smash</p>
+                    <p class="text-sm"> Pão levinho de fermentação natural da trigou, burger 160g, queijo prato e
+                        mainese da
+                        casa.</p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 18.90</p>
+                        <button class="bg-purple-500 px-5 rounded add-to-card-btn" data-name="hamburguer smash"
+                            data-price="18.90">
+                            <i class="fa-solid fa-cart-plus text-black"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="flex gap-2">
+                <img src="./SRC/img/hamb-3.png" alt="hamburguer smash"
+                    class="w-28 h-28 rounded-md hover:scale-100 hover:-rotate-2 duration-300">
+
+                <div>
+                    <p class="font-bold"> hamburguer Salaade</p>
+                    <p class="text-sm"> Pão levinho de fermentação natural da trigou, burger 160g, queijo prato e
+                        mainese da
+                        casa.</p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 35.90</p>
+                        <button class="bg-purple-500 px-5 rounded add-to-card-btn" data-name="hamburguer Salaade"
+                            data-price="35.90">
+                            <i class="fa-solid fa-cart-plus text-black"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="flex gap-2">
+                <img src="./SRC/img/hamb-5.png" alt="hamburguer-Calabreso"
+                    class="w-28 h-28 rounded-md hover:scale-100 hover:-rotate-2 duration-300">
+
+                <div>
+                    <p class="font-bold"> hamburguer Calabreso</p>
+                    <p class="text-sm"> Pão levinho de fermentação natural da trigou, burger 160g, queijo prato e
+                        mainese da
+                        casa.</p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 20.00</p>
+                        <button class="bg-purple-500 px-5 rounded add-to-card-btn" data-name="hamburguer Calabreso"
+                            data-price="20.00">
+                            <i class="fa-solid fa-cart-plus text-black"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="flex gap-2">
+                <img src="./SRC/img/hamb-6.png" alt="hamburguer josefino"
+                    class="w-28 h-28 rounded-md hover:scale-100 hover:-rotate-2 duration-300">
+
+                <div>
+                    <p class="font-bold"> hamburguer josefino</p>
+                    <p class="text-sm"> Pão levinho de fermentação natural da trigou, burger 160g, queijo prato e
+                        mainese da
+                        casa.</p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 35.00</p>
+                        <button class="bg-purple-500 px-5 rounded add-to-card-btn" data-name="hamburguer josefino"
+                            data-price="35.00">
+                            <i class="fa-solid fa-cart-plus text-black"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <div class="  text-center mx-auto max-w-7xl px-2 my-2  mb-11">
+            <h2 class="text-3xl font-bold mb-9">Bebidas:</h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16"
+            id="menu">
+            <div class="flex gap-2 w-full">
+                <img src="./SRC/img/refri-1.png" alt="Coca-Lata"
+                    class="w-28 h-28 rounded-md hover:scale-100 hover:-rotate-2 duration-300">
+
+                <div class="w-full">
+                    <p class="font-bold"> Coca-Lata</p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 6</p>
+                        <button class="bg-purple-500 px-5 rounded add-to-card-btn" data-name="Coca-Lata" data-price="6">
+                            <i class="fa-solid fa-cart-plus text-black"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2 w-full">
+                <img src="./SRC/img/refri-2.png" alt="Coca-Lata"
+                    class="w-28 h-28 rounded-md hover:scale-100 hover:-rotate-2 duration-300">
+
+                <div class="w-full">
+                    <p class="font-bold"> Coca-Lata</p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 6</p>
+                        <button class="bg-purple-500 px-5 rounded add-to-card-btn" data-name="Coca-Lata" data-price="6">
+                            <i class="fa-solid fa-cart-plus text-black"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="flex gap-2 w-full">
+                <img src="./SRC/img/003 7.png" alt="Coca-Lata"
+                    class="w-28 h-28 rounded-md hover:scale-100 hover:-rotate-2 duration-300">
+
+                <div class="w-full">
+                    <p class="font-bold"> Coca-Zero</p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 6</p>
+                        <button class="bg-purple-500 px-5 rounded add-to-card-btn" data-name="Coca-Zero" data-price="6">
+                            <i class="fa-solid fa-cart-plus text-black"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="flex gap-2 w-full">
+                <img src="./SRC/img/download-removebg-preview.png" alt="Coca-Lata"
+                    class="w-28 h-28 rounded-md hover:scale-100 hover:-rotate-2 duration-300">
+                <div class="w-full">
+                    <p class="font-bold"> Del-Vale-Uva</p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 6</p>
+                        <button class="bg-purple-500 px-5 rounded add-to-card-btn" data-name="Del-Vale-Uva"
+                            data-price="6">
+                            <i class="fa-solid fa-cart-plus text-black"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal card -->
+    <div id="cart-modal"
+        class="bg-black/70 w-full h-full fixed top-0 left-0 z-[99]  justify-center hidden items-center">
+
+
+        <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
+            <h2 class="text-center font-bold textt-2xl mb-2">Meu cAR</h2>
+            <div id="cart-items" class="justify-between mb-2 flex-col"></div>
+            <p class="font-bold">Total: <span id="cart-total">0.00</span></p>
+            <p class="font-bold mt-4"> Endereço de entrega</p>
+            <input type="text" placeholder="Digite Seuendereço Completo" id="address"
+                class="w-full border-2 p-1 rounded my-1">
+            <p class="text-red-500 hidden" id="address-warn"> Digite seu endereso</p>
+            <div class="flex items-center justify-between mt-4 w-full">
+                <button id="close-modal-btn">Fecha</button>
+                <button id="checkout-btn" class="text-white bg-purple-500 px-4 py-1 rounded">Finalizar
+                    pedido</button>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="w-full bg-purple-500 py-2 fixed bottom-0 z-40 flex justify-center gap-2">
+        <button class="flex gap-2 justify-center items-center text-black font-bold" id="card-btn">
+            (<span id="cart-count">0</span>)
+            Veja meu carrinho
+            <i class="fa fa-cart-plus  fa-flip  text-black"></i>
+
+        </button>
+
+    </footer>
+
+    <script src="./sscript.js"></script>
+</body>
+
+</html>
